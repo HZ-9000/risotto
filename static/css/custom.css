@@ -1,1 +1,38 @@
 /* Override this file to customise the theme's CSS for your site */
+
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300..700;1,300..700&display=swap");
+
+:root {
+	--font-monospace: "JetBrains Mono", monospace;
+}
+
+/* Colour roles: orange accents instead of the palette's default blue/teal */
+:root {
+	--logo: var(--base09);
+	--link: var(--base09);
+	--hover: var(--base0A);
+	--highlight: var(--base09);
+}
+
+/* Typography */
+body {
+	font-size: 17px;
+	line-height: 1.6;
+	font-weight: 350;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 1.5rem 0 0.5rem 0;
+	line-height: 1.3;
+}
+
+h1 { font-size: 1.6rem; }
+h2 { font-size: 1.35rem; }
+h3 { font-size: 1.15rem; }
+h4, h5, h6 { font-size: 1rem; }
+
+/* Logo */
+.page__logo-inner {
+	padding: 0.5rem 0.75rem;
+}

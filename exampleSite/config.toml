@@ -20,7 +20,7 @@ pagerSize = 3
 noindex = false
 
 [params.theme]
-palette = "base16-dark"
+palette = "orange-dark"
 
 # Sidebar: about/bio
 [params.about]
